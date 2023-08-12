@@ -1,0 +1,42 @@
+#bild {
+top:20%;
+left:16.5%;
+height:75%;
+position:fixed;
+z-index:-1;
+}
+h1 {
+    z-index:4;
+    position:fixed;
+    left:9%;
+    top:-1%;
+    letter-spacing:0.3em;
+    font-size:300px;
+text-align:center;
+font-family: arial;
+}
+h2 {
+    font-size:240px ;
+    text-align:justify;
+}
+#text {
+position:absolute;
+z-index:3;
+left:57%;
+right:23%;
+top:20%;
+color:white;
+text-overflow:hidden;
+text-align:justify;
+
+}
+
+p1 {
+    text-align:justify;
+    font-size:100px;
+    z-index:2;
+    font-family:arial;
+    letter-spacing: 0.2em;
+    word-spacing: 0.3em;
+
+}
