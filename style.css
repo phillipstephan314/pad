@@ -23,6 +23,9 @@ h2 {
     font-size:2.4em ;
     text-align:justify;
 }
+h3 {
+    display:none;
+}
 #text {
 position:absolute;
 z-index:3;
@@ -43,7 +46,9 @@ p1 {
     word-spacing: 0.3em;
 
 }
-
+#footer {
+    display:none;
+}
 }
 @media (min-aspect-ratio: 10/9) and (max-aspect-ratio: 15/9){
     #bildmobil {display:none;}
@@ -61,12 +66,15 @@ p1 {
             left: 50%;
             transform: translate(-50%, 0%);
             letter-spacing:0.3em;
-            font-size:2.8em;
+            font-size:2.66em;
             font-family: arial;
         }
         h2 {
             font-size:1.9em ;
             text-align:justify;
+        }
+        h3 {
+            display:none;
         }
         #text {
         position:absolute;
@@ -89,52 +97,63 @@ p1 {
             word-spacing: 0.3em;
         
         }
-
+        #footer {
+            display:none;
+        }
 }
 @media (max-aspect-ratio: 10/9){
-    body {background-color: #3b2802;}
-    #bildmobil {
-        left: 50%;
-        transform: translate(-50%, -50%);
-        top:50%;
-
-    }
+    #bildmobil {display:none;}
     #bild {
-display:none;
+       display:none;
         }
         h1 {
+            z-index:4;
+            position: fixed;
+            left: 50%;
+            transform: translate(-50%, 0%);
+            letter-spacing:0.3em;
+            font-size:2em;
+            font-family: arial;
             display:none;
         }
         h2 {
-            font-size:1.9em ;
+            font-size:1.6em ;
             text-align:justify;
-            
+        }
+        h3 {
+            display:none;
         }
         #text {
         position:absolute;
         z-index:3;
-        left:10%;
-        right:10%;
-        top:3%;
-        color:white;
+        left:8%;
+        right:8%;
+        top:0%;
+        color:black;
         text-overflow:hidden;
-
-        text-shadow: 0.5px 0.5px white;
+        text-align:left;
+ 
         
         }
         
         p1 {
             text-align:justify;
-            font-size:1.55em;
+            font-size:1.50em;
             z-index:2;
             font-family:arial;
             letter-spacing: 0.2em;
-            word-spacing: 0.3em;
-        
+            word-spacing: 0.1em;
         }
-
-
-
+        #footer {
+            width:101%;
+            height:6%;
+            position:fixed;
+            bottom:0%;
+            background-color: #EEEEEE;
+            left:-1%;
+            z-index:5;
+            padding-top:20px;
+        }
 }
 @media (min-aspect-ratio: 23/9){
 
@@ -161,6 +180,9 @@ h2 {
     font-size:2.4em ;
     text-align:justify;
 }
+h3 {
+    display:none;
+}
 #text {
 position:absolute;
 z-index:3;
@@ -182,5 +204,7 @@ p1 {
     word-spacing: 0.3em;
 
 }
-  
+#footer {
+    display:none;
+}
 }
